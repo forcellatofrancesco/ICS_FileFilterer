@@ -1,0 +1,65 @@
+{
+  "verbose": true,
+  "cursor": "logger:~$ ",
+  "output_file": "./output.ics",
+  "language": "ita",
+  "calendar_files": [
+    "https://www.unive.it/data/ajax/Didattica/generaics?cache=-1&afid=339901"
+ ],
+  "conditions": {
+    "location": {
+      "in": [],
+      "not_in": []
+    },
+    "summaries": {
+      "in": [],
+      "not_in": []
+    },
+    "descriptions": {
+      "in": [],
+      "not_in": []
+    },
+    "dtstarts": {
+      "in": [],
+      "not_in": []
+    },
+    "dtends": {
+      "in": [],
+      "not_in": []
+    },
+    "exdates": {
+      "in": [],
+      "not_in": []
+    }
+  },
+  "log_messages": {
+    "eng": {
+      "load_calendar": "Calendars loaded.",
+      "load_settings": "Settings parsed successfully.",
+      "loading_file": "Loading calendar %s.",
+      "file_not_found": "File %s not found. Change the path or name of the file in settings.json.",
+      "successful_calendars": "Loaded %d/%d calendars successfully.",
+      "events_filtered": "Events filtered. Before: %d, after: %d.",
+      "file_closed": "File %s is now closed.",
+      "all_files_closed": "ISC input files closed.",
+      "output_created": "ICS file created.",
+      "total_events": "Total events: %d.",
+      "exec_time": "Execution time: %f.",
+      "event": "%s-%s %s: %s - %s"
+    },
+    "ita": {
+      "load_calendar": "Calendari caricati.",
+      "load_settings": "Impostazioni convertite correttamente",
+      "loading_file": "Caricamento calendario %s.",
+      "file_not_found": "File %s non trovato. Cambia il percorso o il nome del file in settings.json.",
+      "successful_calendars": "Caricati correttamente %d/%d calendari.",
+      "events_filtered": "Eventi filtrati. Prima: %d, dopo: %d.",
+      "file_closed": "Il file %s è stato chiuso.",
+      "all_files_closed": "I file ISC di input sono stati chiusi.",
+      "output_created": "File ICS creato.",
+      "total_events": "Eventi in totale: %d.",
+      "exec_time": "Tempo di esecuzione: %f.",
+      "event": "%s-%s %s: %s - %s"
+    }
+  }
+}
